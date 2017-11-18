@@ -29,7 +29,7 @@ setup(
     solarized=pygments_solarized:SolarizedStyle
     solarized_dark=pygments_solarized:SolarizedDarkStyle
     solarized_dark256=pygments_solarized:SolarizedDark256Style
-    '''
+    ''',
     #entry_points={
     #    'pygments.styles': [
     #        'solarized=pygments_solarized:SolarizedStyle',
