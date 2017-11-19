@@ -4,7 +4,7 @@ from pygments.token import Keyword, Name, Comment, Number, Operator, Generic, Li
 
 BASE0 = '#839496'
 BASE1 = '#93a1a1'
-BASE2 = '#eee8d5'
+# BASE2 = '#eee8d5'
 BASE3 = '#fdf6e3'
 BASE00 = '#657b83'
 BASE01 = '#586e75'
@@ -15,9 +15,9 @@ YELLOW = '#b58900'
 RED = '#dc322f'
 MAGENTA = '#d33682'
 VIOLET = '#6c71c4'
-BLUE = '#268bd2'
+# BLUE = '#268bd2'
 CYAN = '#2aa198'
-GREEN = '#859900'
+#GREEN = '#859900'
 
 
 BASE0 = '#FFFFFF'  # Not sure about this.  Just taking guesses
@@ -25,6 +25,8 @@ BASE2 = '#45515F'
 WHITE = '#FFFFFF'  # regular text
 ORANGE = '#DF691A'  # stuff...
 LIGHT_ORANGE = '#F0AD4E'  # comments
+GREEN = '#45FF00'
+YELLOW = '#E7FF00'  # replacing in old SolarizedStyle for SolarizedLight
 
 
 class SolarizedStyle(Style):
@@ -40,7 +42,7 @@ class SolarizedStyle(Style):
         # Keyword.Pseudo
         # Keyword.Reserved
         Keyword.Type: 'bold',
-        Name: BLUE,
+        Name: YELLOW,
         # Name.Attribute
         Name.Builtin: ORANGE,
         # Name.Builtin.Pseudo
@@ -74,6 +76,6 @@ class SolarizedStyle(Style):
 #         Number: 'bold',
 #         # Operator
 #         Operator.Word: GREEN,
-#         Comment: BASE1 + ' italic',
+#         Comment: + ' italic',
 #         Generic: MAGENTA,
 #     }
