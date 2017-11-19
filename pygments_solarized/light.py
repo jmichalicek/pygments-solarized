@@ -36,14 +36,14 @@ class SolarizedStyle(Style):
     background_color = SEE_THROUGH
     styles = {
         Text: 'bg: %s %s' % (BASE2, BASE01),
-        Keyword: ORANGE,
+        Keyword: GREEN,
         Keyword.Constant: 'bold',
         # Keyword.Declaration
         Keyword.Namespace: RED + ' bold',
         # Keyword.Pseudo
         # Keyword.Reserved
         Keyword.Type: 'bold',
-        Name: YELLOW,
+        Name: ORANGE,
         # Name.Attribute
         Name.Builtin: ORANGE,
         # Name.Builtin.Pseudo
