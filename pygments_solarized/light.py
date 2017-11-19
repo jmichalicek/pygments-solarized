@@ -20,6 +20,7 @@ CYAN = '#2aa198'
 #GREEN = '#859900'
 
 
+SEE_THROUGH = 'rgba(0,0,0,0.0)'
 BASE0 = '#FFFFFF'  # Not sure about this.  Just taking guesses
 BASE2 = '#45515F'
 WHITE = '#FFFFFF'  # regular text
@@ -32,7 +33,7 @@ YELLOW = '#E7FF00'  # replacing in old SolarizedStyle for SolarizedLight
 class SolarizedStyle(Style):
 
     """ Light version solarized theme (http://ethanschoonover.com/solarized). """
-    background_color = BASE2
+    background_color = SEE_THROUGH
     styles = {
         Text: 'bg: %s %s' % (BASE2, BASE01),
         Keyword: ORANGE,
